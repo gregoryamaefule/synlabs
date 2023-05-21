@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.smlinks{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    background-color: slateblue;
+}
+.smlinks >ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 50%;
+    opacity: 60%;
+}
+.smlinks> button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 30px;
+}
+header > img{
+    width: 260px;
+    height: 100px;
+}
+header>.links{
+    min-width: 300px;
+    flex-basis: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0 10px ;
+    font-weight: 600px;
+    cursor: pointer;
+}
+.rightlinks{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.search{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slateblue;
+}
+.search>form{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search>form>input{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 30px;
+}
+.search>form>button{
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+}
